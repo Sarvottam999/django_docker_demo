@@ -27,6 +27,11 @@ SECRET_KEY = "django-insecure-r)#rprq=+dfj%a(6nor-2s#t_#9il$0z!(+vrwr7=vs(_@&mp-
 DEBUG = True
 
 ALLOWED_HOSTS = ["*", "localhost", "127.0.0.1", "web"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://birlallf.org",
+    "https://www.birlallf.org",
+]
+
 
 
 # Application definition
